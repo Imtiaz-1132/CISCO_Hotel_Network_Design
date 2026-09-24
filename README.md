@@ -56,7 +56,7 @@ flowchart TB
     IOT --> Temp["Temperature Sensor"]
     IOT --> Fire["Fire Sensor"]
 ```
-#🔑 Key Features
+# 🔑 Key Features
 - Multi-floor hotel network
 - VLAN-based network segmentation
 - Inter-VLAN routing using router-on-a-stick
@@ -74,7 +74,7 @@ flowchart TB
 - Fire detection and emergency response
 
   
-#🖥️ Network Services
+# 🖥️ Network Services
 Service	Purpose
 DHCP	Automatic IP address assignment
 DNS	Domain name resolution
@@ -83,7 +83,7 @@ Email Server	Internal communication
 IoT Server	Smart device management and automation
 
 
-🤖 IoT Automation
+# 🤖 IoT Automation
 The project integrates smart devices to automate hotel operations.
 Motion Detected
       ↓
@@ -101,14 +101,14 @@ Fire Detected
       ↓
 Alarm + Sprinkler Activated
 
-#🔐 Security
+# 🔐 Security
 VLANs separate Guest, Reception, Accounts, Server, and IoT traffic.
 ACLs are used to restrict unauthorized communication.
 For example:
 Guest VLAN ────────► Accounts VLAN
                        ❌ BLOCKED
 
-#🧰 Tools & Technologies
+# 🧰 Tools & Technologies
 - Cisco Packet Tracer
 - Cisco Routers & Switches
 - VLAN
@@ -124,7 +124,7 @@ Guest VLAN ────────► Accounts VLAN
 - RFID and IoT Automation
 
   
-#📊 Results
+# 📊 Results
 The simulated network successfully demonstrates:
 - Network connectivity between hotel departments
 - VLAN segmentation
